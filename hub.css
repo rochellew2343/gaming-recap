@@ -1,0 +1,28 @@
+body{
+    background-color: cornflowerblue;
+}
+
+.container{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    /* top: 200px; */
+}
+
+.content h1{
+    font-size: 85px;
+}
+
+.footer{
+    background-color: gainsboro;
+    /* position: relative; */
+}
