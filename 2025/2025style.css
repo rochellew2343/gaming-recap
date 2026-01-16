@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cherry Swash", serif;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #FFF8E9; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #FFF8E9, #D8C07C);
+}
+
+.flipbook{
+    width: 1000px;
+    height: 600px;
+}
+
+.flipbook .hard{
+    background-color: #563908 !important;
+}
+
+.flipbook .page{
+    background-color: #FFF8E9;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+#front-cover{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#page-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#page-4{
+    text-align: center;
+}
+
+#page-4-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
